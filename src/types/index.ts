@@ -5,7 +5,7 @@ export interface User {
 }
 
 export interface GrammarAnalysis {
-  corrections: string[];
+  corrections: string;
   recommendations?: {
     rule_name: string;
     exercise_link: string;
